@@ -1,0 +1,157 @@
+body
+{
+font-family: Arial;
+margin: 20px;
+background: #f5f5f5;
+}
+
+h2
+{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.form-box
+{
+margin-bottom: 15px;
+padding: 10px;
+background: white;
+border-radius: 5px;
+box-shadow: 0px 0px 5px gray;
+}
+
+.form-box input,
+.form-box select,
+.form-box button
+{
+padding: 6px;
+margin: 5px;
+}
+
+table
+{
+width: 100%;
+border-collapse: collapse;
+background: white;
+}
+
+table,th,td
+{
+border:1px solid black;
+}
+
+th
+{
+background: #2196F3;
+color: white;
+}
+
+th,td
+{
+padding:8px;
+text-align:center;
+}
+
+
+.menu-container
+{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+}
+
+.menu-box
+{
+width:150px;
+height:100px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:18px;
+font-weight:bold;
+color:white;
+border-radius:10px;
+box-shadow: 0px 0px 5px gray;
+}
+
+.menu-box:hover
+{
+transform: scale(1.05);
+}
+
+.patient-box
+{
+background:#4CAF50;
+}
+
+.doctor-box
+{
+background:#2196F3;
+}
+
+.appointment-box
+{
+background:#FF9800;
+}
+
+.menu-box a
+{
+color:white;
+text-decoration:none;
+}
+
+
+button
+{
+padding:6px 12px;
+border:none;
+color:white;
+cursor:pointer;
+background:#2196F3;
+border-radius:4px;
+}
+
+
+.edit-btn
+{
+background:#4CAF50;
+}
+
+.delete-btn
+{
+background:#f44336;
+}
+
+
+.complete-btn
+{
+background-color: #4CAF50;
+margin: 2px;
+}
+
+
+.cancel-btn
+{
+background-color: rgb(246, 68, 68);
+margin: 2px;
+}
+
+
+.status-completed
+{
+color: green;
+font-weight: bold;
+}
+
+.status-cancelled
+{
+color: red;
+font-weight: bold;
+}
+
+.status-pending
+{
+color: orange;
+font-weight: bold;
+}
